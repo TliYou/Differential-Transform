@@ -63,11 +63,3 @@ presnehodnoty2=subs(presne,x,tspan2);
 hodnotyreseni2=subs(reseni2,x,tspan2);
 error2=presnehodnoty2-hodnotyreseni2;
 
-tspan = [1 exp(1)];
-sol1 = ddensd(@ddefun2,@dely2,@delyp2,@history2,tspan);
-yn1 = deval(sol1,tspan1);
-e1=presnehodnoty1-yn1;
-tspan = [exp(1) (exp(1))^(exp(1))];
-sol2 = ddensd(@ddefun2,@dely2,@delyp2,@history2,tspan);
-yn2 = deval(sol2,tspan2);
-e2=presnehodnoty2-yn2;
