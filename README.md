@@ -11,7 +11,7 @@ kd.m (auxiliary function: the Kronecker delta)
 product.m (auxiliary function: differential transform of a product of two functions)
 Example1.m
 Example2.m
-dely.m, delyp.m, history.m (auxiliary functions used with Matlab package "ddensd")
+ddefun.m, dely.m, delyp.m, history.m (auxiliary functions used with Matlab package "ddensd")
 
 Matlab version used: 2012a.
 
